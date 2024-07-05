@@ -47,9 +47,9 @@ with tab1:
     st.subheader('Real-time Data')
     col1, col2 = st.columns([0.5, 0.5])
     with col1:
-        start_date = st.date_input("Start", min_value=date(2021, 1, 1), max_value=date.today(), key="start_date", value=date(2023, 1, 1))
+        start_date = st.date_input("Start", min_value=date(2020, 1, 1), max_value=date.today(), key="start_date", value=date(2024, 1, 1))
     with col2:
-        end_date = st.date_input("End", min_value=date(2021, 1, 1), max_value=date.today(), key="end_date")
+        end_date = st.date_input("End", min_value=date(2020, 1, 1), max_value=date.today(), key="end_date")
 
     filtered_data = data[(data['time'] >= start_date) & (data['time'] <= end_date)]
     

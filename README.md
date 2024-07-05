@@ -1,6 +1,6 @@
 # Vietnamese Stock Prediction
 
-[Web App](https://vn-stock-prediction.streamlit.app/)
+Click [Web App](https://vn-stock-prediction.streamlit.app/) to see the project output. 
 
 ## **The Summary**
 
